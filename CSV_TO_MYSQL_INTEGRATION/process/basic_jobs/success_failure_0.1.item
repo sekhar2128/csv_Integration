@@ -287,6 +287,10 @@
     <elementParameter field="TABLE" name="GROUPBYS">
       <elementValue elementRef="OUTPUT_COLUMN" value="empno"/>
       <elementValue elementRef="INPUT_COLUMN" value="empno"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="status"/>
+      <elementValue elementRef="INPUT_COLUMN" value="status"/>
+      <elementValue elementRef="OUTPUT_COLUMN" value="loc"/>
+      <elementValue elementRef="INPUT_COLUMN" value="loc"/>
     </elementParameter>
     <elementParameter field="TABLE" name="OPERATIONS">
       <elementValue elementRef="OUTPUT_COLUMN" value="ename"/>
