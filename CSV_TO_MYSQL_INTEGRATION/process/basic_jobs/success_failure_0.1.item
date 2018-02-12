@@ -200,7 +200,7 @@
         <mapperTableEntries name="empno" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row3" expressionFilter="row3.status.eqauls(&quot;success&quot;)" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="empno" expression="row1.empno " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
         <mapperTableEntries name="status" type="id_String" nullable="true"/>
