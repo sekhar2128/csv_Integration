@@ -191,17 +191,17 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="empno" expression="row4.empno " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="ename" expression="row4.ename " type="id_String" nullable="true"/>
-        <mapperTableEntries name="status" expression="row4.status " type="id_String" nullable="true"/>
-        <mapperTableEntries name="loc" expression="row4.loc " type="id_String" nullable="true"/>
+        <mapperTableEntries name="empno" expression="row3.empno " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="ename" expression="row3.ename " type="id_String" nullable="true"/>
+        <mapperTableEntries name="status" expression="row3.status " type="id_String" nullable="true"/>
+        <mapperTableEntries name="loc" expression="row3.loc " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="empno" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
       </inputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="empno" type="id_Integer" nullable="true"/>
+      <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="empno" expression="row1.empno " type="id_Integer" nullable="true" operator="="/>
         <mapperTableEntries name="ename" type="id_String" nullable="true"/>
         <mapperTableEntries name="status" type="id_String" nullable="true"/>
         <mapperTableEntries name="loc" type="id_String" nullable="true"/>
