@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cUG4MA_AEeiZ6LzYSNApLQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cUG4MQ_AEeiZ6LzYSNApLQ" comment="" name="employe" prompt="employe?" promptNeeded="false" type="id_String" value="C:\talend\files for practice\employe.txt"/>
+  <contextParameter xmi:id="_cUG4Mg_AEeiZ6LzYSNApLQ" comment="" name="dept" prompt="dept?" promptNeeded="false" type="id_String" value="C:\talend\files for practice\dept.txt"/>
+  <contextParameter xmi:id="_cUG4Mw_AEeiZ6LzYSNApLQ" comment="" name="src_db_usr_name" prompt="src_db_usr_name?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4NA_AEeiZ6LzYSNApLQ" comment="" name="src_db_usr_pswd" prompt="src_db_usr_pswd?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4NQ_AEeiZ6LzYSNApLQ" comment="" name="src_db_usr_host" prompt="src_db_usr_host?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4Ng_AEeiZ6LzYSNApLQ" comment="" name="src_db_usr_SE" prompt="src_db_usr_SE?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4Nw_AEeiZ6LzYSNApLQ" comment="" name="src_db_port" prompt="src_db_port?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4OA_AEeiZ6LzYSNApLQ" comment="" name="tgt_output_file_path" prompt="tgt_output_file_path?" promptNeeded="false" type="id_String" value="I:\Users\sekhar\Desktop\temp_folder\emp1.txt"/>
+  <contextParameter xmi:id="_cUG4OQ_AEeiZ6LzYSNApLQ" comment="" name="src_file_path" prompt="src_file_path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4Og_AEeiZ6LzYSNApLQ" comment="" name="tgt_file_path" prompt="tgt_file_path?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_cUG4Ow_AEeiZ6LzYSNApLQ" comment="" name="param_file" prompt="param_file?" promptNeeded="false" type="id_String" value="C:\practice_files\param.txt"/>
+</talendfile:ContextType>

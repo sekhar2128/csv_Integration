@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_gnwu8OAOEeehDOv2uv-7ng" name="denormlize" dataPackage="_gnwu8eAOEeehDOv2uv-7ng" Server="Localhost 127.0.0.1" FilePath="C:/practice_files/nrmlizer_denrmizer/father_sons.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_gnwu8eAOEeehDOv2uv-7ng" name="default" dataManager="_gnwu8OAOEeehDOv2uv-7ng">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_gnwu8uAOEeehDOv2uv-7ng" id="_aYzSUOAOEeehDOv2uv-7ng" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gnwu8-AOEeehDOv2uv-7ng" label="fathers" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gnwu9OAOEeehDOv2uv-7ng" label="childern" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

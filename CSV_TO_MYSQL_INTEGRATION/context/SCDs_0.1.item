@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_cTudsA_AEeiZ6LzYSNApLQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_cTudsQ_AEeiZ6LzYSNApLQ" comment="" name="file_name" prompt="file_name?" promptNeeded="false" type="id_String" value="D:\sekhar\12AM\SCD.txt"/>
+  <contextParameter xmi:id="_cTudsg_AEeiZ6LzYSNApLQ" comment="" name="User_name" prompt="User_name?" promptNeeded="false" type="id_String" value="system"/>
+  <contextParameter xmi:id="_cTudsw_AEeiZ6LzYSNApLQ" comment="" name="password" prompt="password?" promptNeeded="false" type="id_String" value="admin"/>
+  <contextParameter xmi:id="_cTudtA_AEeiZ6LzYSNApLQ" comment="" name="host" prompt="host?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_cTudtQ_AEeiZ6LzYSNApLQ" comment="" name="SE" prompt="SE?" promptNeeded="false" type="id_String" value="xe"/>
+  <contextParameter xmi:id="_cTudtg_AEeiZ6LzYSNApLQ" comment="" name="port" prompt="port?" promptNeeded="false" type="id_String" value="1521"/>
+</talendfile:ContextType>
