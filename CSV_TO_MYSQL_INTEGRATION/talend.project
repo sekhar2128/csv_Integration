@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_xpgUAQ-2EeiZ6LzYSNApLQ" label="CSV_To_MySQL_Integration" description="CSV_To_MySQL_Integration" language="java" technicalLabel="CSV_TO_MYSQL_INTEGRATION" creationDate="2018-02-12T10:58:56.203+0530" author="_xpgUAg-2EeiZ6LzYSNApLQ" productVersion="Talend Data Integration-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/sekhar2128/csv_Integration.git&quot;,&quot;login&quot;:&quot;sekhar2128&quot;,&quot;passwd&quot;:&quot;sB54bNxneeM7kElkNHEEcQ==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false"/>
+  <TalendProperties:User xmi:id="_xpgUAg-2EeiZ6LzYSNApLQ" login="security@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
+</xmi:XMI>
