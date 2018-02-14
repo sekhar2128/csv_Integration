@@ -1122,7 +1122,7 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_st0zhBF_EeidQ7ZDpYzFFw" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_st0zhRF_EeidQ7ZDpYzFFw" name="VARCHAR2" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_st0zhhF_EeidQ7ZDpYzFFw" name="ID" label="ID" length="38" sourceType="NUMBER" talendType="id_BigDecimal">
+      <feature xsi:type="relational:TdColumn" xmi:id="_st0zhhF_EeidQ7ZDpYzFFw" name="ID" label="ID" length="38" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
         <taggedValue xmi:id="_st0zhxF_EeidQ7ZDpYzFFw" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_st0ziBF_EeidQ7ZDpYzFFw" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_st0ziRF_EeidQ7ZDpYzFFw" name="NUMBER" numericPrecisionRadix="10" javaDataType="3" nullable="columnNullable"/>
