@@ -12,6 +12,15 @@
     <taggedValue xmi:id="_AgAgsN9QEeekctjcoXckrg" tag="DB ProductName" value="Oracle"/>
     <taggedValue xmi:id="_AgAgsd9QEeekctjcoXckrg" tag="DB ProductVersion" value="Oracle Database 11g Express Edition Release 11.2.0.2.0 - Production"/>
     <taggedValue xmi:id="_AgAgst9QEeekctjcoXckrg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <cdcConns xmi:id="_gpfe8BF_EeidQ7ZDpYzFFw">
+      <cdcTypes xmi:id="_gpgtEBF_EeidQ7ZDpYzFFw" linkDB="_tRV78AsLEeiRCegvOPQbWA" cdcConnection="_gpfe8BF_EeidQ7ZDpYzFFw">
+        <subscribers xmi:id="_gpjJUBF_EeidQ7ZDpYzFFw" name="TSUBSCRIBERS" id="_gpiiQBF_EeidQ7ZDpYzFFw" label="TSUBSCRIBERS" system="true">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gpjJURF_EeidQ7ZDpYzFFw" name="TALEND_CDC_TABLE_TO_WATCH" label="TALEND_CDC_TABLE_TO_WATCH" length="35" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gpjJUhF_EeidQ7ZDpYzFFw" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gpjJUxF_EeidQ7ZDpYzFFw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
+        </subscribers>
+      </cdcTypes>
+    </cdcConns>
     <parameters xmi:id="_Aeqc4t9QEeekctjcoXckrg" key="CONN_PARA_KEY_USERNAME" value="system"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema xmi:id="_K7NXcN9UEeekctjcoXckrg" name="ANONYMOUS" dataManager="_Aeqc4N9QEeekctjcoXckrg"/>
