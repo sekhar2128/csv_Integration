@@ -19,6 +19,26 @@
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gpjJUhF_EeidQ7ZDpYzFFw" name="TALEND_CDC_SUBSCRIBER_NAME" label="TALEND_CDC_SUBSCRIBER_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" key="true" nullable="false"/>
           <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gpjJUxF_EeidQ7ZDpYzFFw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date" nullable="false"/>
         </subscribers>
+        <subscribers xmi:id="_9ro_gRF_EeidQ7ZDpYzFFw" name="TCDC_CUSTOMER" id="_9roYcBF_EeidQ7ZDpYzFFw" label="TCDC_CUSTOMER">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_ghF_EeidQ7ZDpYzFFw" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_gxF_EeidQ7ZDpYzFFw" name="TALEND_CDC_STATE" label="TALEND_CDC_STATE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_hBF_EeidQ7ZDpYzFFw" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_hRF_EeidQ7ZDpYzFFw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_hhF_EeidQ7ZDpYzFFw" name="ID" label="ID" length="38" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
+            <initialValue xmi:id="_9ro_hxF_EeidQ7ZDpYzFFw"/>
+          </feature>
+        </subscribers>
+        <subscribers xmi:id="_9ro_iBF_EeidQ7ZDpYzFFw" name="TCDC_VIEW_CUSTOMER" id="_9ro_gBF_EeidQ7ZDpYzFFw" label="TCDC_VIEW_CUSTOMER">
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_iRF_EeidQ7ZDpYzFFw" name="TALEND_CDC_SUBSCRIBERS_NAME" label="TALEND_CDC_SUBSCRIBERS_NAME" length="50" sourceType="VARCHAR2" talendType="id_String" nullable="false"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_ihF_EeidQ7ZDpYzFFw" name="TALEND_CDC_TYPE" label="TALEND_CDC_TYPE" length="1" sourceType="VARCHAR2" talendType="id_String"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_ixF_EeidQ7ZDpYzFFw" name="TALEND_CDC_CREATION_DATE" label="TALEND_CDC_CREATION_DATE" length="50" sourceType="DATE" talendType="id_Date"/>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_jBF_EeidQ7ZDpYzFFw" name="NAME" label="NAME" length="10" sourceType="VARCHAR2" talendType="id_String">
+            <initialValue xmi:id="_9ro_jRF_EeidQ7ZDpYzFFw"/>
+          </feature>
+          <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_9ro_jhF_EeidQ7ZDpYzFFw" name="ID" label="ID" length="38" sourceType="NUMBER" talendType="id_BigDecimal" key="true">
+            <initialValue xmi:id="_9ro_jxF_EeidQ7ZDpYzFFw"/>
+          </feature>
+        </subscribers>
       </cdcTypes>
     </cdcConns>
     <parameters xmi:id="_Aeqc4t9QEeekctjcoXckrg" key="CONN_PARA_KEY_USERNAME" value="system"/>
@@ -1115,7 +1135,7 @@
         <sqlDataType xmi:id="_wGY94fKeEeeUfqO6m3NNjQ" name="DATE" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
     </ownedElement>
-    <ownedElement xsi:type="relational:TdTable" xmi:id="_st0zgBF_EeidQ7ZDpYzFFw" name="CUSTOMER" id="_styXQBF_EeidQ7ZDpYzFFw" label="CUSTOMER" tableType="TABLE">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_st0zgBF_EeidQ7ZDpYzFFw" name="CUSTOMER" id="_styXQBF_EeidQ7ZDpYzFFw" label="CUSTOMER" tableType="TABLE" attachedCDC="true" activatedCDC="true">
       <taggedValue xmi:id="_st0zgRF_EeidQ7ZDpYzFFw" tag="Comment" value=""/>
       <feature xsi:type="relational:TdColumn" xmi:id="_st0zghF_EeidQ7ZDpYzFFw" name="NAME" label="NAME" length="10" sourceType="VARCHAR2" talendType="id_String">
         <taggedValue xmi:id="_st0zgxF_EeidQ7ZDpYzFFw" tag="Comment" value=""/>
